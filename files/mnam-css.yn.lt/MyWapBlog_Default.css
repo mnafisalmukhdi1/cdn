@@ -1,0 +1,22 @@
+/*MyWapBlog Default oleh MNafis AlMukhdi*/
+body{background:#3b5998;color:#000000;}
+body a{color:#FFFFFF;}
+#header,#footer{padding:3px 3px 3px 0px;border-left:2px outset #000000;border-top:2px inset #000000;background:gray;}
+#header .heading{content:url('http://www.blogponsel.net/assets/images/blogponsel-logo.png');}
+#header .description:after{content:" yang diberdayakan oleh situs free mobile blogging yakni BlogPonsel.net";display:block;}
+#header .description{color:#fff;}
+#navigation{background:darkblue;padding:0px 3px;border-top:2px inset black;border-right:2px outset black;}
+#navigation span a{content:"Halaman Utama";display:block;}
+#navigation span+span+span a{content:"Menu Navigasi";display:block;}
+#footer h6:before{content:"Situs Ini ";}
+#footer h6 a{content:url('http://www.blogponsel.net/assets/images/blogponsel-logo.png');width:25%;}
+#footer:after{content:"BlogPonsel Default by M Nafis Al Mukhdi";}
+h4,h6{border-right:2px inset #000000;border-bottom:2px outset #000000;margin:1px 2px;}
+#content{border-bottom:2px inset #000000;border-right:2px outset #000000;}
+.post{border:1px solid #000000;}
+.post-meta{border-right:2px outset #000000; border-left: 2px outset #000000;#000000;}
+.post-meta2 span:after {content:"Pada Postingan Ini";display:block;}
+#pagination-links{border-top:2px inset #000000;border-right:2px outset #000000;border-left: 2px outset #000000;}
+.post-meta2 span{content:"Tanggapan";display:block;}
+.post-meta2 a{border-right:2px inset black;border-top:2px outset black;}
+#navigation span+span a{content:"Profil Saya";display:block;}

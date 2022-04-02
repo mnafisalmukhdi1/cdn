@@ -1,0 +1,231 @@
+#footer
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #CCC;
+  background-color: #F14D89;
+  padding: 20px;
+  margin: 0px;
+}
+#footer a
+{
+  text-decoration: underline;
+}
+#footer #powered-by, #footer #additional-links
+{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 8px;
+  padding: 0px;
+  margin: 4px;
+  line-height: 8px;
+  word-spacing: normal;
+}
+#footer #additional-links
+{
+	margin-top: 8px;
+}
+#pagination-links
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  margin: 4px;
+}
+#pagination-links span
+{
+  padding: 8px;
+  display: inline-block;
+  background: #EF3477;
+  color: #fff;
+}
+#pagination-links a
+{
+  padding: 8px;
+  background: #F14D89;
+  color: #000;
+  display: inline-block;
+  margin-top: 2px;
+  text-decoration: none;
+}
+#pagination-links a:hover
+{
+  text-decoration: none;
+}
+#bottom-content
+{
+  background: #2D2D2D;
+  font-size: 14px;
+  margin: 20px 0px 0px 0px;
+  color: #FFF;
+  padding: 0px 0px 10px 0px;
+  border-top: 10px solid #EEE;
+}
+#bottom-content a
+{
+  color: #FFF;
+}
+#bottom-content a:hover
+{
+  text-decoration: none;
+}
+#bottom-content h3
+{
+  margin: 10px 0px 0px 10px;
+}
+#bottom-content h3, #bottom-content h3 a
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 0px;
+  color: #009CFF;
+}
+#bottom-content ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#bottom-content ul li
+{
+  margin: 4px 0px;
+  background: url(http://ykub.xtgem.com/Mywapblog/demo/ModernBlack/img/bullet.jpg) no-repeat center left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #313131;
+}
+#bottom-content ul li a
+{
+  padding: 8px 0px;
+}
+#bottom-content ul li.last
+{
+  border: 0px;
+}
+.highlight
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 16px;
+  background: #EEEEEE;
+  text-align: center;
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+  color: #009CFF;
+}
+.highlight span
+{
+  color: #2D2D2D;
+}
+.inp-text
+{
+  vertical-align: top;
+  height: 30px;
+}
+.inp-text, .inp-textarea
+{
+  background: #EF3477;
+  border: 1px solid #ED1886;
+  color: #FFF;
+  width: 99%;
+  font-size: 22px;
+  margin: 0px;
+}
+.inp-textarea
+{
+  font-size: 12px;
+  height: 100px;
+}
+.inp-btn
+{
+  vertical-align: top;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  border: 1px solid #FF709D;
+  background: #F14D89;
+  color: #000;
+  font-size: 22px;
+  height: 34px;
+  margin: 0px;
+  padding: 0px 10px;
+}
+#comment_form .inp-btn, #guestbook_form .inp-btn, #feedback_form .inp-btn
+{
+  background: url('http://ykub.xtgem.com/Mywapblog/demo/ModernBlack/img/plus.png') no-repeat scroll 2px 8px #ED1886;
+  margin: 10px 0px;
+  padding: 0px 10px 0px 20px;
+}
+.messages
+{
+  background: #F14D89;
+  border: 1px solid #F14F89;
+  color: #000;
+  margin: 10px 0px;
+  padding: 10px 3%;
+  list-style: none;
+  width: 93%;
+}
+.messages *
+{
+  margin: 0px;
+  padding: 0px;
+}
+#blog-logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#recent-posts-list h4, #following-list h4, #blogroll_list h4
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+#recent-posts-list ol, #following-list ol, #blogroll_list ol
+{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#recent-posts-list ol li, #following-list ol li, #blogroll_list ol li
+{
+  background: url('http://ykub.xtgem.com/Mywapblog/demo/ModernBlack/img/plus.png') 0px 3px no-repeat;
+  padding: 4px 4px 4px 20px;
+}
+#next_previous 
+{
+  margin: 6px 0;
+  font-size: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+}
+#next_previous .previous, #next_previous .next
+{
+  display: inline-block;
+  background: #FF709D;
+  padding: 6px 8px;
+  color: #000;
+  margin-top: 4px;
+}
+#next_previous .previous
+{
+  float: left;
+}
+#next_previous .next
+{
+  float: right;
+  margin-left: 4px;
+}
+.comment-left-content .date{text-decoration:none;color:#fff;}
+.comment-header .title a{text-decoration:none;color:#fff;}
+#footer a{color:#fff;}

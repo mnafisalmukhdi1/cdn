@@ -1,0 +1,22 @@
+body{margin:0;padding:0;}
+a{color:#900;}
+#header{background:#900;padding:0!important;margin:0!important;}
+#navigation a{color:#900;}
+.inp-btn{background:#900;color:#ff0;border:3px solid #500;padding:4px;margin:2px 0;width:100%}
+#navigation span:first-child{display:none!important;}
+.heading a{color:#fff;font-size:small!important;font-weight:bold;text-shadow:1px 1px 1px #000;margin:0;padding:5px;vertical-align:middle;}
+#navigation span{border-radius:5px;padding:2px;margin:0 2px;background:#f9fcff;}
+#navigation span+span a{content:"Tentang"}
+#navigation span+span+span a{content:"Menu"}
+#navigation{text-align:right!important;position:absolute;top:25px;right:0;bottom:0;left:0;}
+.description{font-size:small!important;font-weight:bold;border-bottom:3px solid #000;margin:0;text-align:center;color:#fdfdfd;padding:7px;background:#3a3a3a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:justify;}
+.inp-text,.inp-textarea{margin:0;padding:4px;color:#666;border:1px solid #212121;border-radius:3px;width:100%}
+#top-content:before,h3,#content:before{background:#343434;color:#616683;background-color:#f0f0f0;border:1px solid #ededf2;display:block;margin:8px 0px;padding:3px 5px 3px 5px;border-radius:5px;}
+h3 a.no-link{color:#616683;}
+#top-content:before{content:"Pencarian"}
+#content:before{content:"Postingan"}
+.post,#pagination-links,ul,.post-single,.comment{color:#616683;background:#f6f6f6;border:1px solid #dedede;display:block;margin:5px;padding:3px 5px 3px 5px;border-radius:5px;word-wrap:break-word}
+.post:hover,#pagination-links:hover,ul:hover,.post-single:hover,.comment:hover{color:#616683;background:#f6f6f6;border:1px solid #909090;display:block;margin:5px;padding:3px 5px 3px 5px;border-radius:5px;word-wrap:break-word;box-shadow:1px 1px 1px 0px #343434;outline:none;}
+ul{list-style:none;}
+#category-bottom li a{width:85%;display:inline-block;}
+#blogroll a{display:block;}

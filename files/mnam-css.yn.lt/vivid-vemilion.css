@@ -1,0 +1,115 @@
+/*
+Name CSS : Vivid Vemilion
+Type CSS : Mobile - Default
+Created On : 14 May 2016
+Author : IRUL ARIEF
+Link Blog : http://irul-arief.mywapblog.com
+*/ 
+
+* {margin:0;padding:0;}
+body {margin:0 auto;padding:0;background:#aaa;color:#444;font-size:12px;font-family: Tahoma, Arial, sans-serif;overflow-wrap:break-word;max-width:100%;}
+img, canvas {max-width:90%;max-height:90%;}
+a, a:link, a:active, a:focus, q:visited, a:hover {color:#d53;text-decoration:none;}
+a.no-link {color:#222;text-decoration:none;}
+h1, h2, h3, h4, h5, h6 {font-size:16px;font-family: "Titillium Web", Tahoma, Arial, sans-serif;}
+#header {margin:0;padding:0;text-align:center;background:#303030;}
+#header .heading {margin:0;padding:10px 8px 4px;}
+#header .heading a {font-size:28px;color:#fff;text-decoration:none;}
+#header .description {margin:0;padding:4px 8px 8px;color:#ccc;font-size:12px;}
+#navigation {margin:0;padding:0;background:#d53;text-align:center;}
+#navigation span {margin:0;padding:8px 0;display:inline-table;width:31%;}
+#navigation span a {color:#fff;text-decoration:none;}
+#navigation span a {content:"INDEX";}
+#navigation span+span a {content:"PROFIL";}
+#navigation span+span+span a {content:"MENU";}
+#top-content {margin:0;padding:8px;background:#aaa;border-bottom:1px solid #888;}
+#search-form {margin:0;padding:0 31% 0 0;background:#fff;position:relative;}
+#search-form:before {content:"Enter Text...";position:absolute;top:8px;left:8px;color:#444;}
+#search-form .inp-text {margin:0;padding:8px 0;background:transparent;border:0;color:#333;width:100%;}
+#search-form .inp-btn {position:absolute;top:0;right:0;bottom:0;margin:0;padding:8px 0;background:#303030;border:0;color:#fff;width:30%;}
+.highlight {margin:0;padding:8px;background:#aaa;color:#000;font-size:small;text-align:center;border-top:1px solid #ccc;border-bottom:1px solid #888;}
+#content {margin:0;padding:0;background:#aaa;border-top:1px solid #ccc;border-bottom:1px solid #888;}
+.post {margin:8px;padding:0;background:#fff;}
+.post .post-meta {margin:0;padding:8px;color:#444;border-bottom:3px solid #d53;position:relative;}
+.post .post-meta:after {content:"";position:absolute;bottom:-3px;right:0;background:#303030;width:50%;height:3px;}
+.post .post-meta .title {margin:0;padding:0 0 2px;}
+.post .post-meta .title a {color:#d53;text-decoration:none;display:block;}
+.post .post-content {margin:0;padding:8px;color:#333;}
+.post .post-content a {color:#222;text-decoration:none;}
+.post .post-content .thumbnail {margin:1px 8px -2px 0 !important;padding:0 !important;background:transparent !important;border:0 !important;float:left !important;width:40px !important;height:40px !important;}
+.post .post-meta2 {margin:0;padding:8px 8px 16px;text-align:right;}
+.post .post-meta2 a {margin:0;padding:8px;background:#d53;color:#fff;text-decoration:none;}
+.post .post-meta2 span {margin:-8px -8px -8px 3px;padding:8px;background:#303030;color:#fff;text-decoration:none;}
+.post-single {margin:8px;padding:0;}
+.post-single .post-meta {margin:0;padding:8px;background:#fff;border-bottom:3px solid #d53;color:#444;position:relative;}
+.post-single .post-meta:after {content:"";position:absolute;bottom:-3px;right:0;background:#303030;width:50%;height:3px;}
+.post-single .post-meta .title {margin:0;padding:0;color:#222;}
+.post-single .post-meta .categories {margin:0;padding:0;font-size:12px;}
+.post-single .post-meta .categories a {color:#d53;text-decoration:none;}
+.post-single .post-content {margin:0;padding:8px;background:#fff;color:#333;}
+.post-single .post-content a {color:#d53;text-decoration:none;}
+.post-single .post-content h1, .post-single .post-content h2, .post-single .post-content h3, .post-single .post-content h4, .post-single .post-content h5, .post-single .post-content h6 {margin:0 -8px;padding:8px 32px 8px 8px;background:#303030 url(http://irul-arief.mywapblog.com/files/d53menu1.png)center right no-repeat;border-bottom:3px solid #d53;color:#fff;text-decoration:none;text-transform:uppercase;}
+.post-single .post-content ul, .post-single .post-content ol {list-style:none;margin:0 -8px;padding:0;border-top:1px solid #aaa;}
+.post-single .post-content li {list-style:none;margin:0;padding:8px;background:#fff;border-bottom:1px solid #aaa;}
+#share-buttons {margin:0;padding:7px;background:#fff;border-top:1px dashed #aaa;text-align:center;}
+#share-buttons a {margin:1px;padding:1px;display:inline-block;}
+#recent-posts-list, #following-list, #blogroll_list {margin:8px 0 0;padding:0;background:#fff;}
+#recent-posts-list h4, #following-list h4, #blogroll_list h4 {margin:0;padding:8px 32px 8px 8px;background:#fff url(http://irul-arief.mywapblog.com/files/d53menu.png)center right no-repeat;border-bottom:3px solid #d53;color:#222;text-decoration:none;text-transform:uppercase;position:relative;}
+#recent-posts-list h4:after, #following-list h4:after, #blogroll_list h4:after {content:"";position:absolute;bottom:-3px;right:0;background:#303030;width:50%;height:3px;}
+#recent-posts-list ol, #following-list ol, #blogroll_list ol {margin:0;padding:0;}
+#recent-posts-list li, #following-list li, #blogroll_list li {list-style:none;margin:0;padding:8px;background:#fff;border-bottom:1px solid #aaa;}
+#recent-posts-list li:last-child, #following-list li:last-child, #blogroll_list li:last-child {border-bottom:0;}
+#recent-posts-list li:before {content:"» ";color:#d53;}
+#following-list li:before, #blogroll_list li:before {content:"« ";color:#d53;}
+#next_previous {margin:0;padding:0;}
+#next_previous .previous, #next_previous .next {margin:0;padding:8px;background:#fff;border-top:1px solid #aaa;color:#d53;text-decoration:none;display:block;}
+#next_previous .previous {content:"» Postingan Sebelumnya";}
+#next_previous .next {content:"» Postingan Selanjutnya";}
+#comments {margin:0 8px 8px;padding:0;background:#fff;}
+#new-entry {margin:0;padding:0;border-top:8px solid #aaa;}
+#comments h3, #new-entry h3 {margin:0;padding:8px 32px 8px 8px;background:#fff url(http://irul-arief.mywapblog.com/files/d53menu.png)center right no-repeat;border-bottom:3px solid #d53;color:#222;text-decoration:none;text-transform:uppercase;position:relative;}
+#comments h3:before, #new-entry h3:before {content:"";position:absolute;bottom:-3px;right:0;background:#303030;width:50%;height:3px;}
+#comments h4, #comments h5 {margin:0;padding:8px;background:#fff;border-bottom:1px solid #aaa;color:#333;}
+#comments h4 a, #comments h5 a {color:#d53;text-decoration:none;}
+#comments .comment {margin:8px;padding:1px;background:#aaa;}
+#comments .comment .comment-header {margin:0;padding:8px;background:#fff;border-bottom:1px dotted #aaa;color:#444;}
+#comments .comment .comment-header .title {margin:0;padding:0 0 2px;background:transparent;border:0;color:#222;text-align:left;}
+#comments .comment .comment-header .title a {color:#d53;text-decoration:none;display:block;}
+#comments .comment .comment-content {margin:0;padding:8px;background:#fff;color:#333;}
+.messages {margin:0;padding:0;}
+#comments li {list-style:none;margin:0;padding:8px;background:#fff;text-align:center;color:#444;font-size:small;border-bottom:1px solid #aaa;}
+#comment_form {margin:0;padding:8px;background:#fff;text-align:center;}
+#comment_form a {color:#d53;text-decoration:none;}
+#comment_form .inp-text {margin:8px 0;padding:8px 0;background:#fff;border:1px solid #aaa;color:#444;width:65%;}
+#comment_form .inp-textarea {margin:8px 0;padding:24px 0;background:#fff;border:1px solid #aaa;color:#444;width:80%;}
+#comment_form .inp-btn {margin:0;padding:8px;background:#303030;border:0;color:#fff;width:70%;}
+#pagination-links {margin:0;padding:8px;background:#aaa;border-top:1px solid #ccc;border-bottom:1px solid #888;text-align:center;font-size:0;}
+#pagination-links span, #pagination-links a:first-child, #pagination-links a:last-child {margin:1px;padding:8px;background:#303030;font-size:12px;color:#fff;text-decoration:none;display:inline-block;}
+#pagination-links a {margin:1px;padding:8px;background:#fff;font-size:12px;color:#d53;text-decoration:none;display:inline-block;}
+#bottom-content {margin:0;padding:0;background:#aaa;border-top:1px solid #ccc;}
+#navigation-menu, #category-bottom, #blogroll {margin:8px;padding:0;background:#fff;display:block;}
+#navigation-menu h3, #category-bottom h3, #blogroll h3 {margin:0;padding:8px 32px 8px 8px;background:#fff url(http://irul-arief.mywapblog.com/files/d53menu.png)center right no-repeat;border-bottom:3px solid #d53;color:#222;text-decoration:none;text-transform:uppercase;position:relative;}
+#navigation-menu h3:before,#category-bottom h3:before, #blogroll h3:before {content:"";position:absolute;bottom:-3px;right:0;background:#303030;width:50%;height:3px;}
+#navigation-menu ul {margin:0;padding:0;}
+#category-bottom ul, #blogroll ul {margin:0;padding:7px;}
+#category-bottom ul:after, #blogroll ul:after {content:"";margin:0;padding:0;display:block;clear:both;}
+#navigation-menu li {list-style:none;margin:0;padding:8px;background:#fff;border-bottom:1px solid #aaa;}
+#navigation-menu li a {color:#d53;text-decoration:none;}
+#navigation-menu li h1, #navigation-menu li h2, #navigation-menu li h3, #navigation-menu li h4, #navigation-menu li h5, #navigation-menu li h6 {margin:-9px -8px;padding:8px 32px 8px 8px;background:#303030 url(http://irul-arief.mywapblog.com/files/d53menu1.png)center right no-repeat;border-bottom:3px solid #d53;color:#fff;text-decoration:none;text-transform:uppercase;}
+#navigation-menu li h3:before {content:none;margin:0;padding:0;}
+#category-bottom li {list-style:none;margin:1px;padding:8px;background:#303030;color:#fff;display:inline-block;float:left;}
+#category-bottom li a {margin:-8px 5px -8px -8px;padding:8px;background:#d53;color:#fff;text-decoration:none;}
+#blogroll li {counter-increment:line-number;list-style:none;margin:1px;padding:8px;background:#303030;color:#fff;display:inline-block;float:left;}
+#blogroll li:after {content:"#"counter(line-number);}
+#blogroll li a {margin:-8px 7px -8px -8px;padding:8px;background:#d53;color:#fff;text-decoration:none;}
+#footer {margin:0;padding:8px;background:#303030;color:#eee;text-align:center;}
+#footer a {color:#fff;text-decoration:none;}
+#footer span {margin:0 !important;padding:0 !important;background:transparent !important;border:0 !important;color:#fff !important;}
+#footer h6 {margin:0;padding:0;font-size:12px;}
+#footer img {display:none;}
+#footer:after {content:"Didesain oleh IRUL ARIEF";display:block;margin:8px -8px -8px;padding:8px;background:#d53;color:#fff;text-decoration:none;}
+textarea {margin:1px;padding:8px;background:#fff;border:1px solid #aaa;color:#444;}
+table {text-align:center;width:90%;}
+caption {color:#333;}
+th, td {margin:1px;padding:8px;background:#fff;border:1px solid #aaa;color:#333;}
+th a, td a {color:#d53;text-decoration:none;}

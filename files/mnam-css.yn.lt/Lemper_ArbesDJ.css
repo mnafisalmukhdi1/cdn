@@ -1,0 +1,140 @@
+/*
+Name : Lemper
+Type : Mobile
+Redesign by : ArbesDJ
+Sites : http://arbesdj.mywapblog.com
+http://cssmo.mywapblog.com
+Date : 12 May 2014
+*/
+body{background:#FFF;position:relative;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#666;font-size:14px;overflow-wrap:break-word;max-width:640px;margin:0 auto;padding:0}
+img{max-width:100%}
+h1{font-size:28px}
+h4{font-size:14px}
+h5{font-size:12px}
+h6{font-size:10px}
+a{color:#0054bb;text-decoration:none}
+a:hover{color:#777;text-decoration:none}
+a.no-link,a.no-link:hover{color:#000;text-decoration:none}
+#header{text-align:center;margin:0;padding:40px 0 0}
+#header .heading{font-size:24px;text-decoration:none;font-weight:700;margin:0;padding:5px}
+#header .description{background:#f7f7f7;border-top:1px solid #ddd;border-bottom:1px solid #ddd;font-size:10px;font-weight:700;margin:0;padding:10px 5px}
+#navigation{border-bottom:1px solid #ddd;text-align:center;margin:0;padding:5px 0 0}
+#navigation span{text-transform:uppercase;font-size:12px;font-weight:700;border-left:1px solid #ddd;border-right:1px solid #ddd;border-top:1px solid #ddd;margin:0 3px 0 0;padding:5px 0}
+#navigation span a{width:26%;display:inline-block;text-decoration:none;margin:0;padding:5px 0}
+#navigation span+span+span a{content:'menu'}
+#content{margin:0;padding:0}
+.post:before{display:block;float:left;height:50px;width:70px;content:'';background:url(/files/no1.png)no-repeat center;background-size:100% 100%;margin:5px 0 0 3px}
+.post{position:relative;font-size:12px;border-bottom:1px solid #ddd;margin:0 3px 10px;padding:5px 0 10px}
+.post-single .post-content{height:auto;font-size:14px}
+#content ol,#content ul{margin:0 5px;padding:0}
+#content ol li,#content ul li{border-bottom:1px dotted #ccc;list-style-position:inside;padding:5px}
+.post-single{background:#fff;border:1px solid #ddd;color:#333;margin:2px 0 0;padding:5px}
+.post-single .post-meta{background:#f7f7f7;border:1px solid #ddd;height:auto;margin:0 0 5px}
+.post-single .post-meta .title{color:#000}
+.post-single .post-content img{max-width:70%}
+.post-single .post-content h2{margin:3px;padding:5px}
+.post-single .post-content h3{background:#333;color:#fff;text-align:center;margin:3px;padding:5px}
+.post-meta{margin-left:73px;margin-top:0;margin-right:0;font-size:10px;position:relative;padding:5px}
+.post-meta .title{color:#00737c;font-size:16px;font-weight:400;margin:0;padding:0}
+.post-meta .title a:before{position:relative;float:left;content:' ';display:block;width:70px;height:50px;z-index:3;margin:0 5px 0 -75px;padding:0}
+.post-meta .categories{font-size:14px;margin:0;padding:0}
+.post-meta2{font-size:10px;text-align:right;padding:5px}
+.post-meta2 span{content:'Views'}
+.post-meta2 a{background:#eee url(/files/plus.png)no-repeat right center;border-left:1px solid #ddd;border-right:1px solid #ddd;border-top:1px solid #ddd;padding:5px 20px 5px 5px}
+.post-content{font-size:12px;height:0;overflow:hidden;margin:0}
+.thumbnail{float:none!important;position:absolute;top:10px;left:3px;border:none!important;height:50px!important;width:70px!important;margin:0!important;padding:0!important}
+#comments{margin:10px 0 0}
+#comments h4{background:#fff;margin:0 3px;padding:5px}
+#comments h5{margin:3px 0 0;padding:2px 0}
+#comments h3{background:#fff;max-width:80%;margin:0 3px 4px;padding:5px}
+#comments .comment{margin:0;padding:4px}
+#comments .comment .comment-content:before{background:none;position:absolute;left:-9px;bottom:10px;content:' ';height:0;width:0;display:block;z-index:1;border-color:transparent #f7f7f7 transparent transparent;border-style:solid;border-width:5px;margin:0 auto;padding:0}
+#comments .comment .comment-content:after{background:none;position:absolute;left:-12px;bottom:9px;content:' ';height:0;width:0;display:block;border-color:transparent #ddd transparent transparent;border-style:solid;border-width:6px;margin:0 auto;padding:0}
+#comments .comment .comment-content{position:relative;background:#f7f7f7;border:1px solid #ddd;border-radius:10px;margin-left:10px;margin-top:5px;color:#333;padding:10px}
+#comments .comment .comment-header{background:url(/files/viewer.png)no-repeat top 10px left 5px;position:relative;border:1px solid #ddd;border-radius:10px;font-size:10px;margin-left:0;margin-right:0;margin-bottom:10px;padding:10px 10px 10px 40px}
+#comments .comment .comment-header:before{background:none;position:absolute;right:0;left:0;bottom:-10px;content:' ';height:0;width:0;display:block;z-index:1;border-color:#fff transparent transparent;border-style:solid;border-width:5px;margin:0 auto;padding:0}
+#comments .comment .comment-header:after{background:none;position:absolute;right:0;left:0;bottom:-12px;content:' ';height:0;width:0;display:block;border-color:#ddd transparent transparent;border-style:solid;border-width:6px;margin:0 auto;padding:0}
+#comments .comment .comment-header .title{font-size:14px;font-weight:400;margin:0;padding:0}
+#comments .comment .comment-header .title a{text-decoration:none;font-weight:700}
+#footer{font-size:12px;color:#fff;background:#111;border-top:10px solid #333;text-align:center;margin:45px 0 0;padding:10px 4px 30px}
+#footer:after{background:#333;display:block;content:'@ArbesDJthemes-2014';margin:5px -4px -40px;padding:5px}
+#footer a{color:#fff}
+#footer #powered-by{font-size:8px;line-height:8px;margin:0;padding:0 0 10px}
+#footer #powered-by a{color:#fff;font-weight:700}
+#share-buttons:before{content:'Jika suka dengan postingan ini, kamu bisa bagikan ke teman-temanmu dengan sekali klik :';display:block;margin-bottom:3px}
+#share-buttons{background:#eee;border:1px solid #ccc;text-align:center;margin-bottom:3px;padding:3px}
+.comment-left-content .date{background:#f7f7f7;width:120px;border-bottom:3px solid #0054bb;margin:5px 0;padding:5px}
+#pagination-links{margin-bottom:5px;font-size:14px;text-align:center;color:#fff;clear:both;padding:5px}
+#pagination-links span{display:inline-block;background:#444;padding:2px 5px}
+#pagination-links a{background:#f7f7f7;display:inline-block;margin-top:2px;margin-left:2px;text-decoration:none;padding:2px 5px}
+#bottom-content{font-size:14px;color:#000;margin:0 5px;padding:0}
+#bottom-content a.no-link,#bottom-content a.no-link:hover{color:#333;text-decoration:none}
+#bottom-content h3{border-bottom:3px solid #0054bb;color:#333;text-transfom:uppercase;margin:0 0 5px;padding:5px}
+#bottom-content ul li h2,#bottom-content ul li h3{background:#0054bb;border:none;width:auto;color:#fff;text-align:center;margin:-5px;padding:5px}
+#navigation-menu ul,#category-bottom ul,#blogroll ul{border:1px solid #ddd;list-style:none;margin:0 0 10px;padding:0 5px}
+#bottom-content ul li{margin:0;padding:5px 0}
+#category-bottom ul li,#blogroll ul li{background:url(/files/plus.png)no-repeat left center;padding-left:20px;border-bottom:1px dotted #ddd}
+#bottom-content .link-top{text-align:center;position:absolute;bottom:105px;left:0;right:0;margin:0 auto}
+#category-bottom ul li:last-child,#blogroll ul li:last-child{border-bottom:0}
+#recent-posts-list{background:#f7f7f7}
+#recent-posts-list h4{background:#333;color:#fff;margin:0;padding:5px}
+#recent-posts-list ol li{border-top:1px solid #fff;border-bottom:1px solid #ccc;list-style:none;margin:0;padding:5px}
+#recent-posts-list ol li:first-child{border-top:none}
+#recent-posts-list ol li:last-child{border-bottom:none;padding-bottom:0}
+#blogroll_list h3,#following-list h4{background:#eee;font-size:20px;text-transform:uppercase;text-align:center;margin:3px;padding:5px}
+#search-form{text-align:center;margin-top:24px;margin-bottom:4px}
+#search-form .inp-text{background:#fff url(/files/search4.png)no-repeat left center;width:60%;margin:0;padding:5px}
+#search-form .inp-btn{background:#444;width:25%;color:#fff;margin:0;padding:5px}
+#comments .messages,#comments .highlight{border:1px solid;margin:10px 0;padding:5px 10px 5px 5px}
+#comments .messages{color:#666;background-color:#f7f7f7;list-style:none;border-color:#ddd}
+#comments .highlight{color:#000;background-color:#f7f7f7;text-align:center;border-color:#ddd}
+#comment_form{background:#fefefe;margin:0 3px;padding:4px}
+.inp-text,.inp-textarea{width:90%;color:#000;background:#fff;font-weight:700;border:1px solid #ddd;padding:5px}
+.inp-btn{color:#fff;background:#444;font-weight:700;border:1px solid #333;margin:3px 0 0;padding:5px}
+table{border-collapse:collapse;color:#777}
+table caption{background:#fff;padding:5px}
+table th{background:#0054bb;color:#fff;border:1px solid #fff;padding:8px 3px}
+table th a{color:#ff0}
+table tr{background:#fff}
+table tr:nth-child(even){background:#eee}
+table td{font-size:.9em;border:1px solid #fff;padding:8px 3px}
+canvas{max-width:90%;height:auto;border:1px solid transparent;margin:6px;padding:5px}
+.post-content textarea{max-width:70%;height:40px;background:#e5ecf9;color:#000;border:1px solid #333}
+blockquote{min-height:40px;background:#eee;position:relative;overflow-wrap:break-word;color:#000;border:1px solid #ccc;margin:20px 20px 10px;padding:5px}
+blockquote:before,.preview-item:before{content:'';display:block;position:absolute;top:-20px;left:30px;width:0;height:0;z-index:1;border-color:transparent transparent #eee;border-style:solid;border-width:10px}
+blockquote:after,.preview-item:after{content:'';display:block;position:absolute;top:-22px;left:29px;width:0;height:0;border-color:transparent transparent #ccc;border-style:solid;border-width:11px}
+.more{background:#f7f7f7;border:1px solid #ddd;margin:0!important;padding:5px}
+.more ul,.top-nav1 ul,.foot-nav1 ul{border:none!important;margin:0!important;padding:3px 0}
+.more ul li,.top-nav1 ul li,.foot-nav1 ul li{border-bottom:1px solid #ccc!important;border-top:1px solid #fff!important;margin:0!important}
+.more ul li:last-child,top-nav1 ul li:last-child,.foot-nav1 ul li:last-child{border-bottom:none!important}
+.more2,.top-more1,.foot-more1{text-align:right;margin:0;padding:7px 5px 10px}
+.more2 a,.top-more1 a,.foot-more1 a{background:#0054bb!important;color:#FFF!important;padding:5px!important}
+.top-nav img{padding-top:5px;width:60px;height:50px;float:left;margin:0 5px 0 0}
+.top-nav1 h3{margin:-1px -5px 0!important}
+.top-nav1 a:hover{color:#000!important}
+.top-nav1{display:block;background:#ECEBEB;border:1px solid #FFF;margin:0 0 10px!important;padding:0 5px}
+.foot-nav{margin:0}
+.foot-nav1 h3{margin:0!important;padding:10px!important}
+.foot-nav1{background:#ECEBEB;border:1px solid #FFF;padding:0}
+.social-btn{position:absolute;top:5px;left:0;right:0;margin:0 auto}
+.social-btn h3{background:#000!important}
+.social-btn img{width:24px;height:24px;margin:0 2px}
+.preview-item{position:relative;display:block;background:#eee;border:1px solid #ccc;color:#000;line-height:2em;margin:10px 0;padding:10px}
+.preview-item img{float:left;width:60px;max-height:100px;margin:10px 10px 0 0;padding:0}
+.preview-left,.preview-right,.preview-lefthp,.preview-righthp{display:block;border-bottom:2px solid #ddd;margin:5px;padding:5px}
+.preview-right h2,.preview-righthp h2{color:#128be0}
+.preview-left h2,.preview-lefthp h2{color:#e01295}
+.photo,.trending,.gallery,.bottom-nav,.nav,.container{display:none;padding:0!important}
+h2,h3{font-size:20px}
+#header .heading a,#pagination-links a:hover,#bottom-content a:hover{text-decoration:none}
+.post:first-child,.more ul li:first-child,.top-nav1 ul li:first-child,.foot-nav1 ul li:first-child{border-top:none!important}
+#recent-posts-list ol,#blogroll_list ol,#following-list ol,.top-nav{margin:0;padding:0}
+.preview-left img,.preview-lefthp img,.preview-right img,.preview-righthp img{display:block;text-align:center;max-width:40%!important;margin:5px auto;padding:5px}
+/*
+Name : Lemper
+Type : Mobile
+Redesign by : ArbesDJ
+Sites : http://arbesdj.mywapblog.com
+http://cssmo.mywapblog.com
+Date : 12 May 2014
+*/

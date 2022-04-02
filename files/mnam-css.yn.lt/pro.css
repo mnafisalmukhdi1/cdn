@@ -1,0 +1,2 @@
+.comment-header .title a:after{content:" "attr(href)"";display:block;}
+.comment-header .title a[href="http://mnafisalmukhdi.pun.bz/"]:before,.comment-header .title a[href="http://mnafisalmukhdi.idnblogger.com"]:before,.comment-header .title a[href="http://mnam.blogponsel.me"]:before{content:url(http://mnam-css.yn.lt/files/foto.jpg);float:left;margin:1px;}

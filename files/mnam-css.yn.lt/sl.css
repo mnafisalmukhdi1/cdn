@@ -1,0 +1,93 @@
+/*theme by flambon*/
+/*simple luxury css - type 1 - type to*/
+/*date: 11 mei 2013*/
+/*http://flambons.com*/
+/*fb : arick flambon*/
+/*hargai karya orang lain dengan tanpa menghilangkan inisial creator css fmb_*/
+
+
+body {background:#d1d1d1;margin:0;padding:0;color:#444}
+#header {background:#111;margin:0;padding:0}
+.heading {margin:0;padding:10px 5px;font-size:small;font-weight:bold}
+.description {margin:0;padding:5px 5px 10px 5px;font-size:small;border-bottom:1px solid #323232;color:#ccc;font-weight:bold}
+#navigation {margin:0;padding:2px 0;background:#333;display:block;width:100%;border-top:1px solid #101010;text-align:center} 
+#navigation span {margin:0 1px;padding:5px 0;display:inline-block;width:29%}
+#navigation span+span+span a {content:"Down"}
+#top-content {margin:0;padding:0;}
+#search-form {margin:0;padding:6px 0;border-bottom:1px solid #c1c1c1;border-top:1px solid #f2f2f2;text-align:center;background:#e1e1e1;}
+#search-form [type=text] { width:60%;background:#fffeff;padding:3px;margin:1px;color:#333;border:1px solid #d1d1d1}
+#search-form [type=submit] {;width:23%;margin:1px;padding:3px;border:1px solid #ddd;color:#ffe;background:#333}
+.post,.post-single {background:#f1f1f1;border:1px solid #c2c2c2;margin:5px;padding:0}
+.post-meta .title {margin:0;padding:2px 0;font-size:small}
+.post .post-meta {color:#666;border:1px solid #fff;border-width:1px 1px 0 1px;margin:0;padding:5px}
+.post-single .post-meta {color:#666;border:1px solid #fff;margin:0;padding:5px}
+.post-meta2 {border:1px solid #fff;border-width:0 1px 1px 1px;margin:0;padding:5px}
+#content {border:1px solid #f2f2f2;margin:0;padding:1px 0}
+.post-meta .title,.post-meta .title a {color:#222}
+a,.post-single .post-content h3 a {color:#d54e21;text-decoration:none}
+#pagination-links {border-top:1px solid #c1c1c1;text-align:center;margin:0;padding:1px 3px 3px 3px;background:#e1e1e1}
+#pagination-links span {padding:4px;display:inline-block;background:#fffeff;border:1px solid #d1d1d1}
+#pagination-links a {padding:4px;background:#333;color:#dddddc;display:inline-block;margin-top:2px;text-decoration:none;}
+#pagination-links a:hover {text-decoration: none;}
+#pagination-links a:last-child {content:"»"}
+.heading a,#navigation a {color:#ffe;text-shadow:#111 1px 1px 1px}
+#following-list h4, #blogroll_list h4, #recent-posts-list h4,h3 {background:#444;margin:0;padding:7px;color:#ffe;border:1px solid #f2f2f2;border-width:1px 0}
+#following-list h4 a, #blogroll_list h4 a, h3 a {color:#ffe}
+ul {margin:5px;padding:0;background:#f1f1f1;border:1px solid #c1c1c1}
+#navigation-menu li,#category-bottom li {list-style:none;margin:0;padding:5px;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #d7d7d7}
+#category-bottom li {text-align:right}
+#category-bottom li a {float:left}
+#category-bottom li:before {content:"»";float:left;margin:0;padding:0 6px 0 0;color:#222}
+#blogroll_list li,#recent-posts-list li,.post-content li,#blogroll li,#following-list li {list-style:disc inside;margin:0;padding:5px;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #d7d7d7}
+#bottom-content {border-bottom:1px solid #c1c1c1;margin:0;padding:0}
+h6 {margin:0;padding:0}
+#navigation-menu li.last,#blogroll li.last,#category-bottom li.last {border-bottom:1px solid #fff}
+#navigation-menu h5 {margin:-5px;padding:5px;background:#e1e1e1;color:#222}
+.post-single .post-content {margin:0;padding:9px 5px;border-top:1px solid #d7d7d7;border-left:1px solid #fff;border-bottom:1px solid #fff;border-right:1px solid #fff}
+#recent-posts-list h4 {border:1px solid #fff !important}
+#share-buttons {margin:0;padding:3px;text-align:center;border-bottom:1px solid #d7d7d7;background:#e1e1e1;border-right:1px solid #fff;border-left:1px solid #fff}
+#share-buttons a {display:inline-table;}
+ol {margin:0;padding:0}
+#recent-posts-list li {list-style:decimal inside !important}
+#recent-posts-list li:last-child {border-bottom:1px solid #fff}
+#comments {margin:0 -1px;padding:0}
+.comment {margin:5px;padding:0;background:#f1f1f1;border:1px solid #c1c1c1}
+.comment-header {margin:0;padding:3px;color:#666;background:#eaeaea;border:1px solid #fff;}
+.comment-header .title {margin:0;padding:0}
+.comment-content {margin:0;padding:5px 3px;border-top:1px solid #d7d7d7;border-bottom:1px solid #fff;border-right:1px solid #fff;border-left:1px solid #fff}
+.comment-header .title:before {content:"»";margin-right:3px;color:#222}
+.comment h5 {margin:0 !important;padding:0 !important;border:none !important;background:none !important}
+#comments h4 {background:#e1e1e1;margin:0;border-bottom:1px solid #fff;padding:3px 7px}
+#comments h5 {background:#e7e7e7;border-top:1px solid #d2d2d2;margin:0;padding:3px 7px;border-bottom:1px solid #c1c1c1}
+#comments li {background:#d1d1d1;margin:0;padding:3px;list-style:none;text-align:center;color:#222}
+.highlight {margin:0 0 -1px 0;padding:6px;text-align:center}
+.messages {margin:4px -2px 0 -2px;padding:3px;text-align:center}
+.post-single .post-content h3 {margin:2px 0;text-align:center;background:#e1e1e1;border:1px solid #d1d1d1;color:#333;padding:3px}
+body img {max-width:80%;max-height:80%}
+.post-content,.comment-content {word-wrap:break-word}
+#comment_form {text-align:left;margin:0;padding:5px;background:#f1f1f1;border:5px solid #d2d2d2}
+#comment_form textarea{width:80%;margin:2px 0;padding:10px 0}
+#comment_form input[type=text],.mobile_body
+#comment_form select{width:50%;margin:2px 0;}
+#comment_form [type=submit] {margin:2px 0;background:#444;color:#eeeee5;border:1px solid #ccc;padding:3px}
+.post-single .post-content {padding:0 3px 9px 3px}
+.post-single .post-content h4 {margin:2px -3px;background:#e1e1e1;border:1px solid #d1d1d1;color:#333;padding:4px;text-align:center;border-width:1px 0}
+.post-single .post-content h4 a {display:inline-table;width:40%}
+#footer h6:before {content:"fmb_" !important;display:inline !important}
+.post-single .post-content h6 {margin:2px 0;text-align:left;background:#e1e1e1;border:1px solid #d1d1d1;color:#333;padding:3px 5px}
+.post-content li {list-style:none !important}
+#footer {text-align:center;margin:0;padding:5px;background:#e1e1e1;border-top:1px solid #fff}
+#footer:after {content:"Simple Luxury By Flambon" !important;margin:0;padding:1px;display:block !important;font-size:small !important;color:#666}
+.post .post-content {margin:0;padding:9px 5px;border:1px solid #fff;border-width:0 1px}
+#navigation-menu li h3 {margin:-6px -5px -5px -5px}
+#navigation span a {content:"Home"}
+#navigation span+span a {content:"About"}
+#next_previous {margin:0;padding:7px 5px;text-align:left;border-top:1px solid #d2d2d2} 
+#next_previous a {display:inline-block;color:#ffe} 
+.previous {margin:0 1px;padding:4px 6px;background:#444;content:"Prev";border:1px solid #fff} 
+.next {margin:0 1px;padding:4px 6px;background:#444;content:"Next";float:right;border:1px solid #fff} 
+.clear {clear:both}
+.thumbnail{border:1px solid #aaa !important;margin:2px 2px 0 0 !important;width:60px !important;height:60px !important;padding:1px !important;background:#fff;}
+.categories {padding:4px 0;margin:0;font-size:small}
+.categories a {background:#444 !important;color:#ffe;padding:2px 4px !important}
+.heading a {font-weight:bold}

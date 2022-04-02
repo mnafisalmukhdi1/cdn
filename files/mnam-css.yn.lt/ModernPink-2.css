@@ -1,0 +1,331 @@
+body 
+{
+  margin: 0px;
+  padding: 0px;
+  background: #FFFFFF;
+  color: #3D3D3D;
+  font-size: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+h1
+{
+  font-size: 28px;
+}
+h2
+{
+  font-size: 24px
+}
+h3
+{
+  font-size: 20px;
+}
+h4
+{
+  font-size: 16px;
+}
+h4
+{
+  font-size: 14px;
+}
+h5
+{
+  font-size: 12px;
+}
+h6
+{
+  font-size: 10px;
+}
+a
+{
+  color: #009CFF;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+a.no-link, a.no-link:hover
+{
+  color: #3D3D3D;
+  text-decoration: none;
+}
+img{max-width:100%; height:auto}
+#header 
+{
+  margin: 0px;
+  padding: 0px;
+  background: #FF709D;
+  font-family: Impact, Charcoal, sans-serif;
+  border-bottom: 10px solid #EEE;
+  text-transform: uppercase;
+}
+#header .heading
+{
+  font-size: 24px;
+  margin: 0px;
+  padding: 10px 4px;
+  text-decoration: none;
+  height: 24px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #009CFF;
+  font-weight: normal;
+}
+#header .heading a
+{
+  text-decoration: none;
+  color: #ED1886;
+}
+#header .description
+{
+  color: #000;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 4px;
+  white-space: nowrap;
+}
+#header #search-form
+{
+  position: relative;
+  float: right;
+  margin: 10px 8px 10px 0px
+}
+#header #search-text
+{
+  background: #ED1886;
+  border-radius: 12px;
+  border: 1px solid #F14D89;
+  color: #FF709D;
+  width: 140px;
+  text-align: left;
+  font-size: 24px;
+  height: 24px;
+  padding-left: 10px;
+  margin: 0px;
+}
+#header #search-submit
+{
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  background: url('http://ykub.xtgem.com/Mywapblog/demo/ModernBlack/img/search-but.png') no-repeat scroll 0% 0% transparent;
+  width: 20px;
+  height: 20px;
+  border: medium none;
+  cursor: pointer;
+}
+#header-bottom
+{
+  background: #F14D89;
+  border-top: 1px solid #ED1886;
+  border-bottom: 1px solid #3D3D3D;
+  margin: 0px;
+  padding: 0px;
+}
+#navigation 
+{
+  margin: 0;
+  float: left;
+}
+#open-nav-icon
+{
+  padding: 4px 12px;
+  background: #ED1886;
+  border-radius: 12px;
+  border: 1px solid #FF709D;
+  cursor: pointer;
+  margin: 10px 0px 10px 8px
+}
+#nav-links
+{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+#nav-links ul
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none outside none;
+}
+#nav-links ul li
+{
+  margin: 0;
+}
+#nav-links a
+{
+  display: block;
+  padding: 16px 0;
+  text-decoration: none;
+  font-size: 16px;
+  border-top: 1px solid #ED1886;
+  background: #F14D89;
+  color: #FFF;
+}
+#content
+{
+}
+.post, .post-single 
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+.post
+{
+  border-bottom: 1px solid #ED1886;
+}
+.post-last
+{
+  border-bottom: 0px;
+}
+.post-container
+{
+  margin: 20px;
+}
+.post-meta
+{
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.post-meta .title
+{
+  font-family: Impact, Charcoal, sans-serif;
+  color: #F14D89;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.post-meta .title a
+{
+  text-decoration: none;
+  color: #EF3477;
+}
+.post-meta .categories
+{
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+.post-meta2
+{
+  font-size: 10px;
+  margin: 6px 0 10px 0;
+  padding-top: 2px;
+  color: #EF3477;
+}
+.categories
+{
+  display: inline;
+  font-size: 10px;
+  font-weight: normal;
+}
+.clear
+{
+  clear: both;
+}
+.post-content
+{
+  font-size: 14px;
+}
+#comments
+{
+  background-color: #EEEEEE;
+  color: #002233;
+  margin: 0px 0px -30px 0px;
+  padding: 20px 35px 20px 20px;
+}
+#comments a
+{
+  color: #009CFF;
+}
+#comments h3 a
+{
+  color: inherit;
+}
+#comments h3, #comments h4, #comments h5
+{
+  margin: 0px;
+  padding: 0px;
+}
+#comments h3
+{
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+#comments .comment
+{
+  background-color: #FF709D;
+  padding: 0px;
+  margin: 8px 0px;
+  font-size: 12px;
+  display: table;
+  width: 100%;
+}
+#comments .comment .comment-header
+{
+  font-size: 10px;
+  border-bottom: 1px dashed #333;
+}
+#comments .comment .comment-header .title
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  color: #CCC;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0px 8px 0px;
+  padding: 0px;
+  color: #009CFF;
+}
+#comments .comment .comment-header .title a
+{
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  border-bottom: 1px solid #009CFF;
+  color: #009CFF;
+}
+.comment-left-content
+{
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  display: table-cell;
+  text-align: center;
+  margin: 0px;
+  width: 22%;
+  vertical-align: middle;
+  background-color: #F14D89;
+  color: #009CFF;
+}
+.comment-left-content .date
+{
+  font-size: 24px;
+  font-size: 18px;
+  padding: 10px;
+}
+.comment-left-content .date span
+{
+  display: block;
+}
+.comment-right-content
+{
+  padding: 8px;
+  display: table-cell;
+  width: 77%;
+  margin-left: 1%;
+  color: #EEE;
+}
