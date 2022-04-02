@@ -1,0 +1,299 @@
+/*
+Balikpapan, 25 July 2016
+---------------------
+Theme Name: WB Strap
+Theme Author: Official Team
+Theme Uri: http://store.wapblog.id/wb-strap.html
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #900;
+  text-decoration: none;
+}
+body {
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #f1f1f1;
+  color: #000;
+}
+nav#blog-navbar {
+  background: #bd0d0d;
+  line-height: 40px;
+  border-bottom: 3px solid #900;
+}
+nav#blog-navbar ul li {
+  display: inline-block;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+nav#blog-navbar ul li a {
+  display: block;
+  color: #fff;
+}
+nav#blog-navbar ul.wb-icon {
+  display: none;
+}
+nav#blog-navbar ul.list-menu li.item-brand {
+  padding-right: 6px;
+  border-right: 1px solid #900;
+  margin-right: 6px;
+  font-weight: bold;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+}
+header h1.blog-heading,
+header .blog-heading {
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 700;
+}
+header h2.blog-description,
+header .blog-description {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#blog-wrap {
+  margin: 20px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+#blog-wrap #blog-content .blog-post {
+  padding: 5px;
+  margin: 8px 4px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-bottom: 5px solid #ddd;
+}
+#blog-wrap #blog-content .blog-post .blog-post-header {
+  border-bottom: 1px solid #dedede;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer {
+  border-top: 1px solid #dedede;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul {
+  list-style: none;
+  padding: 5px 0 0 0;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li {
+  display: inline-block;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li a {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li a span.sh-hidden {
+  display: none;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li a.sh-fb {
+  background: #07a;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li a.sh-tw {
+  background: #0bd;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-sharer ul li a.sh-gp {
+  background: #c00;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-category ul {
+  list-style: none;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-category ul li {
+  display: inline-block;
+}
+#blog-wrap #blog-content .blog-post .blog-post-footer .blog-post-footer-category ul li a {
+  background: #efefef;
+  border: 1px solid #dedede;
+  padding: 3px;
+  display: inline-block;
+  margin: 2px;
+  border-radius: 3px;
+}
+#blog-body #blog-content #wb-comments h4 {
+  padding: 5px;
+  background: #fefefe;
+  text-align: center;
+}
+#blog-body #blog-content #wb-comments ul {
+  list-style: none;
+}
+#blog-body #blog-content #wb-comments ul li,
+#blog-body #blog-content #wb-new-comment {
+  padding: 5px;
+  margin: 8px 4px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-bottom: 5px solid #ddd;
+}
+#blog-body #blog-content #wb-comments ul li .wb-comm-item-head {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+#blog-wrap #blog-content .blog-post .blog-post-content,
+#blog-wrap #blog-content .blog-post .blog-post-header .blog-post-header-meta,
+#blog-wrap #blog-content .blog-post .blog-post-header .blog-post-header-title {
+  padding: 3px 0;
+}
+#blog-wrap #blog-content .blog-post .blog-post-header h1.blog-post-header-title,
+#blog-wrap #blog-content .blog-post .blog-post-header h2.blog-post-header-meta {
+  font-size: 17px;
+  font-weight: normal;
+}
+#blog-wrap #blog-sidebar h3 {
+  padding: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  background: #bd0d0d;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #900;
+}
+#blog-wrap #blog-sidebar ul {
+  list-style: none;
+}
+#blog-wrap #blog-sidebar ul li {
+  padding: 5px;
+  border: 1px solid #dedede;
+  margin: 2px 0;
+  border-radius: 4px;
+}
+#blog-wrap #blog-sidebar {
+  padding: 10px;
+}
+#blog-content #blog-pagination {
+  text-align: center;
+}
+#blog-content #blog-pagination span,
+#blog-content #blog-pagination a {
+  margin: 0 3px;
+  padding: 2px 5px;
+  background: #ededed;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+footer {
+  background: #444;
+  border-top: 10px solid #111;
+  color: #fff;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+footer .blog-footing,
+footer .powered-wb {
+  padding: 5px;
+}
+.w65 {
+  width: 65%;
+}
+.w35 {
+  width: 35%;
+}
+.fl-lf {
+  float: left;
+}
+.blog-clear {
+  clear: both;
+}
+.padd5 {
+  padding: 5px;
+}
+.rad5 {
+  border-radius: 5px;
+}
+.blog-text {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100%;
+}
+.btn {
+  padding: 3px;
+  border: 2px solid #900;
+  color: #fff;
+}
+.btn-full {
+  width: 100%;
+}
+.btn-primary {
+  background: #bd0d0d;
+}
+input.wb-text,
+textarea.wb-textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+}
+#wb-new-comment h5 {
+  padding: 4px;
+}
+ol,li {
+  list-style: none;
+}
+.suc {
+  background: #bdfdcd;
+  padding: 5px;
+  color: #090;
+}
+.err {
+  background: #fdbdbd;
+  padding: 5px;
+  color: #900;
+}
+.war {
+  background: #fddf7d;
+  color: #900;
+  padding: 5px;
+}
+.img {
+  text-align: center;
+}
+.img .image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+nav#blog-navbar ul li.item-menu-icon {
+  display: none
+}
+@media (max-width:700px)
+{
+  section {
+    float: none!important;
+    width: 100%!important;
+  }
+  nav#blog-navbar ul li.page-item {
+    display: none;
+  }
+  nav#blog-navbar ul li.page-item.item-brand {
+    display: inline-block;
+  }
+  nav#blog-navbar ul li.page-item.item-menu-icon {
+    display: inline-block;
+    float: right;
+  }
+  .i-x {
+    display: none;
+  }
+  nav#blog-navbar ul.list-menu.menu-active li.page-item.item-show {
+    display: block;
+    border-top: 1px solid #900;
+  }
+}

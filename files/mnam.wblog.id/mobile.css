@@ -1,0 +1,267 @@
+body {
+  background:#f1f1f1;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color:#900;
+  text-decoration: none;
+}
+#wb-header {
+  background:#bd0d0d;
+  color: #ff0;
+  margin: 0;
+  padding: 0;
+}
+h1.wb-blog-name,
+h2.wb-blog-description,
+.wb-blog-name,
+.wb-blog-description {
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+h1.wb-blog-name,
+.wb-blog-name {
+  font-size: 28px;
+}
+h2.wb-blog-description,
+.wb-blog-description {
+  font-size: 20px;
+}
+.wb-blog-name a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+.wb-blog-description {
+  border-bottom: 1px solid #900;
+}
+#wb-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #222;
+}
+#wb-header ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+#wb-header ul li a {
+  color: #fff;
+  display: block;
+  padding: 4px;
+  margin: 2px;
+  font-weight: bold;
+}
+#wb-search {
+  background: #343434;
+  padding: 5px 0;
+  margin: 0;
+}
+#wb-search input {
+  display: inline-block;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+#wb-search input.button-search {
+  background:#bd0d0d;
+  color: #fff;
+  border: 2px solid #900;
+  padding: 3px 7px;
+  width: 20%;
+  width: calc(30% - 8px);
+  box-sizing: border-box;
+}
+#wb-search .text-search {
+  border: 1px solid #b00;
+  padding: 4px;
+  color: #bd0d0d;
+  width: 70%;
+  box-sizing: border-box;
+}
+#wb-content,
+#wb-sidebar {
+  margin: 0;
+  padding: 0;
+}
+#wb-content .wb-post {
+  margin: 0;
+  padding: 0;
+}
+#wb-content .wb-post h2.wb-post-title,
+#wb-content .wb-post h1.wb-post-title {
+  font-size: 15px;
+  margin: 0;
+  padding: 5px;
+  background: #de0e0e;
+  color: #fff;
+}
+#wb-content .wb-post h2.wb-post-title a {
+  color: #fff;
+}
+#wb-content .wb-post .wb-post-meta {
+  background: #ededed;
+  margin: 0;
+  padding: 5px;
+}
+#wb-content .thumbnail {
+  display: block;
+}
+#wb-pagination {
+  background: #bd0d0d;
+  margin: 10px;
+  text-align: center;
+}
+#wb-pagination a,
+#wb-pagination span {
+  display: inline-block;
+  margin: 2px;
+  padding: 4px 5px;
+  border: 1px solid #900;
+}
+#wb-pagination a {
+  color: #fff;
+}
+#wb-pagination span {
+  color: #fff;
+  font-weight: bold;
+}
+#wb-sidebar h3 {
+  background: #bd0d0d;
+  color: #fff;
+  padding: 7px 0;
+  margin: 0;
+  font-size: 14px;
+}
+#wb-sidebar h3:before {
+  content: "_";
+  font-size: 0;
+  border: 10px solid #bd0d0d;
+  border-left: 10px solid #fff;
+  float: left;
+}
+#wb-sidebar h3:after {
+  content: "_";
+  font-size: 0;
+  border: 10px solid #bd0d0d;
+  border-right: 10px solid #fff;
+  float: right;
+}
+#wb-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#wb-sidebar ul li {
+  margin: 0px;
+  padding: 5px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #dedede;
+}
+#wb-sidebar ul li p {
+  margin: 0;
+  padding: 0;
+}
+#wb-sidebar .wb-blog-categories ul li a {
+  display: block;
+}
+#wb-sidebar .wb-blog-categories ul li span {
+  float: right;
+}
+#wb-footer {
+  background: #dedede;
+  border-top: 3px solid #333;
+  margin: 0;
+  padding: 0;
+}
+#wb-footer .wb-footing,
+#wb-footer .wb-powered {
+  margin: 0;
+  padding: 5px;
+}
+.wb-post-categories ul,
+.wb-post-sharer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wb-post-categories ul li,
+.wb-post-sharer ul li {
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
+}
+.wb-post-categories ul li a,
+.wb-post-sharer ul li a {
+  background: #ce0e0e;
+  color: #fff;
+  padding: 5px;
+  margin: -4px;
+  display: inline-block;
+}
+#blog-comments .wb-comments-list {
+  margin: 0;
+  padding: 0;
+}
+#blog-comments .wb-comments-list h4 {
+  background: #c00d0d;
+  padding: 5px;
+  margin: 0;
+}
+#blog-comments .wb-comments-list a {
+  color: #fff;
+}
+#blog-comments .wb-comments-list p {
+  margin: 0;
+  padding: 4px;
+}
+.login-button,
+.wb-button {
+  background: #b00;
+  display: inline-block;
+  margin: 4px;
+  padding: 5px;
+  border: 3px solid #900;
+  color: #fff;
+}
+.btn-primary {
+  width: 100%;
+  margin: 4px 0;
+}
+.login-button a {
+  color:#fff;
+}
+.wb-text {
+  border: 1px solid #999;
+  margin: 4px 0;
+  padding: 3px;
+  color:#666;
+  box-sizing: border-box;
+  width: 100%;
+}
+#new-comments h4 {
+  margin: 0;
+  padding: 6px 6px 6px 10px;
+}
+ol,li,ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.suc {
+  background: #bdfdcd;
+  padding: 5px;
+  color: #090;
+}
+.err {
+  background: #fdbdbd;
+  padding: 5px;
+  color: #900;
+}
+.war {
+  background: #fddf7d;
+  color: #900;
+  padding: 5px;
+}
