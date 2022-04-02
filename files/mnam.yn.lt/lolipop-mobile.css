@@ -1,0 +1,330 @@
+/*
+CSS Name: Lolipop Template
+CSS Editor: Afrizal
+CSS Version: 1.0
+CSS Created: 14 Januari 2016
+CSS URI: afrizal.bloger.id
+CSS Description: CSS Ini merupakan Stylesheet bawaan wbid yang telah diedit sehingga menghasilkan tampilan yang berwarna warni.
+*/
+
+* {
+margin:0;
+padding:0;
+font-size:14px;
+}
+img {
+max-width:100%;
+}
+#search {
+margin:0px;
+text-align:center;
+background:#3a3a3a;
+}
+#search input[type=submit] {
+margin:3px;
+padding:4px;
+color:#fff;
+background:#FD3C03;
+  width:20%;
+border:1px solid #9F000F;
+}
+#search input[type=text] {
+border:1px solid #000;
+margin:2px;
+padding:5px;
+  width:55%;
+}
+textarea, .text {
+border:1px solid #E11E28;
+color:#333;
+padding:4px;
+width:95%;
+margin:0;
+}
+body {
+word-wrap:break-word;
+background:#dadada;
+margin:0 auto;
+padding:0 px;
+color:#463E3F;
+max-width:400px;
+}
+#wrapper {
+margin:0 px;
+padding:0 0px;
+background: #e1e1e1;
+border:1px solid #afafaf;
+}
+a {
+text-decoration:none;
+color:#E11E28;
+}
+#header {border-bottom:4px #863E62 solid;}
+#header, #menu, #pagination, .post-short {
+margin:0 -10px;
+text-align:center;
+}
+#header h1, #header h2, #header div {
+margin:0;
+padding:10px;
+font-weight:bold;
+}
+#menu {background:#E11E28;border-top:1px solid #777;text-align:center;border-bottom:2px solid #000;margin:0;padding:0;}
+#menu span {width:29%;display:inline-block;padding:6px 0;text-align:center;margin:0-1px 0 0;}
+#menu span a {color:#fff;}
+#pagination, .post-short {
+padding:7px;
+}
+#menu a, #footer a, #comment h3 a {
+color:#dedede;}
+#header .heading a {
+font-size:28px;
+}
+#header .description {
+font-size:18px;
+}
+#header .heading a {
+color:#444;
+text-shadow:3px 3px 3px #bdbdbd;
+text-transform:uppercase;
+}
+.post, #comment .list {
+margin:4px;
+padding:3px;
+border:1px solid #d0d0d0;
+background:#fefefe;
+}
+
+.post-head{margin:7px;padding:0;background:#fff;position:relative;border-bottom:1px solid #d0d0d0;}
+.post:nth-child(n) {border-top:8px solid #28B8DB;}
+.post:nth-child(2n+1) {border-top:8px solid #DC005A;}
+.post:nth-child(3n+1) {border-top:8px solid #9A12B3;}
+.post:nth-child(4n+1) {border-top:8px solid #F9BF3B;}
+.post-head, .post-foot, .comment-head {
+margin:0;
+padding:0;
+}
+.post-title, .comment-name {
+text-align:left;
+padding:3px;
+}
+.post-title {font-size:19px;color:#43C6DB;}
+.post-title a, .comment-name a{
+color:#43C6DB; font-size:19px; text-align:left;
+}
+.post-date, .post-foot div, .post-category {
+padding:3px;
+}
+.post-content, .comment-content {
+margin:0;
+padding:0;
+text-align:justify;
+}
+.post-content p:first-letter {
+margin:0 0 0 10px;
+font-size:50px;
+}
+.post-content p {
+margin:10px 0;
+}
+.post-content img{margin:5px;}
+.post-meta2 {margin:0;padding:8px;text-align:right;background:#eee;}
+.post-meta2 a {color:#fff;padding:6px 6%
+;display:inline-block}
+.post:nth-child(n) .post-meta2 a {background:#28B8DB}
+.post:nth-child(2n+1) .post-meta2 a
+{background:#DC005A}
+.post:nth-child(3n+1) .post-meta2 a
+{background:#9A12B3}
+.post:nth-child(4n+1) .post-meta2 a
+{background:#F9BF3B}
+.label span a {
+background:#900;
+color:#fff;
+margin:2px;
+padding:3px;
+}
+#pagination {
+  margin:3px;
+  padding:4px;
+  text-align:center;
+  clear:both;
+}
+#pagination a, #pagination span {
+  margin:3px 1px;
+  padding:4px;
+  background:#fff;
+  border:1px solid #c0c0c0;
+}
+#pagination a {
+  color:#079;
+}
+#pagination span {
+  color:#333;
+}
+#sidebar h3, #comment h3 {
+background:#FD3C03;
+padding:7px;
+margin:0 -10px;
+text-align:center;
+color:#fff;
+}
+
+#sidebar li {
+list-style:none;
+margin:4px;
+border:1px solid #d0d0d0;
+padding:4px;
+}
+/*kategori*/
+#sidebar .kategori2 { margin:4px;
+border:1px solid #ededed;
+padding:4px;}
+#sidebar .kategori h3 {background:#FECB09; padding:11px 15px 11px 15px;
+margin:0 -10px;
+border-bottom:3px #FBB117 solid;
+text-align:left;
+color:#fff; }
+.kategori li{float:left;list-
+style:none;border:none; outline:none;color:#fff;
+}
+.kategori li a{color:#fff;}
+/* Design Warna */
+.kategori ul li:nth-child(1)
+{background-color:#E11E28;margin-
+right:1%}
+.kategori ul li:nth-child(2)
+{background-color:#FD3C03;margin-
+right:2%}
+.kategori ul li:nth-child(3)
+{background-color:#FECB09;margin-
+right:3%}
+.kategori ul li:nth-child(4)
+{background-color:#6EBE27;margin-
+right:4%}
+.kategori ul li:nth-child(5)
+{background-color:#149A48;margin-
+right:5%}
+.kategori ul li:nth-child(6)
+{background-color:#5BBFF1;margin-
+right:6%}
+.kategori ul li:nth-child(7)
+{background-color:#61469C;margin-
+right:7%}
+.kategori ul li:nth-child(8)
+{background-color:#863E86;margin-
+right:8%}
+.kategori ul li:nth-child(9)
+{background-color:#863E62;margin-
+right:9%}
+.kategori ul li:nth-child(10)
+{background-color:#815540;margin-
+right:10%}
+#sidebar .navigation h3{clear:both;
+background:#E11E28;
+padding:11px 15px 11px 15px;
+margin:0 -10px;
+text-align:left;
+border-bottom:3px #C11B17 solid;
+color:#fff;}
+#sidebar .navigation li {
+list-style:none;
+margin:4px;
+border:1px solid #d0d0d0;
+padding:4px;
+background:#fff;
+}
+#sidebar .blogroll h3{
+background:#5BBFF1;
+padding:11px 15px 11px 15px;
+margin:0 -10px;
+border-bottom:3px #6495ED solid;
+text-align:left;
+color:#fff;}
+#sidebar .blogroll li {
+list-style:none;
+margin:4px;
+border:1px solid #d0d0d0;
+padding:4px;
+background:#fff;
+}
+#sidebar .blogroll li a{color:#5BBFF1;}
+#footer {
+margin:3px -10px 0 -10px;
+padding:5px;
+text-align:center;
+background:#863E62;
+border-top:3px solid #600;
+border-style:outset;
+color:#fff;
+}
+.sub {
+tex-align:center;
+}
+.btn {
+margin:3px 0;
+padding:4px;
+background:#387C44;
+color:#fff;
+border:1px solid #fff;
+width:100%;
+}
+li.suc, li.err, li.war {
+margin:1px;
+list-style:none;
+padding:5px;
+}
+li.suc {
+background:#edfded;
+color:#090;
+border:1px solid #090;
+}
+li.err {
+background:#ffdede;
+color:#900;
+border:1px solid #900;
+}
+li.war {
+background:#fff;
+color:#990;
+border:1px solid #990;
+}
+.stat-head {
+margin:1px;
+padding:7px;
+border:1px solid #ededed;
+}
+.fspost-php {
+margin:4px;
+padding:0;
+text-align:left;
+color:#090;
+border:1px solid #dedede;
+}
+.breadcrumb{margin:4px;
+border:1px solid #d0d0d0;
+background:#fff;
+padding:4px;}
+#comment-sub{border:1px solid #d0d0d0;
+background:#fff;
+margin:4px;
+padding:4px;}
+.comment-time{text-align:right; margin:3px;color:#848585;}
+.share .fb {
+background:#01579b;
+color:#fff;
+padding:2px;
+margin:3px;
+font-size:13px;
+}
+.share{margin:4px;
+border:1px solid #d0d0d0;
+background:#fff;
+padding:4px;}
+.share .tw {
+background:#4099FF;
+color:#fff;
+padding:2px;
+margin:3px;
+font-size:13px;
+}
